@@ -1,0 +1,547 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+}
+/* For navigabar and logo */
+nav {
+    background-color: #f2f2f2;
+    padding: 30px;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    color: orangered;
+  }
+  
+  .nav-links {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  .nav-links li {
+    
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  .nav-links a{
+text-decoration: none;
+color: black;
+  }
+
+  .nav-links li:first-child {
+    margin-left: 0;
+  }
+  
+  .icon-container {
+    display: inline-block;
+    vertical-align: middle; 
+  }
+  
+  .icon-container i {
+    margin-left: 10px; 
+  }
+
+  .dark-theme {
+    background-color: #1a1a1a;
+    color: #f2f2f2;
+  }
+
+  .dark-theme nav{
+    background-color: #1a1a1a;
+    color: #f2f2f2;
+  }
+  
+  .dark-theme .nav-links a {
+    color: #f2f2f2;
+  }
+  .dark-theme .hamburger{
+    color: #f2f2f2;
+  }
+
+  .dark-theme .link-2{
+    color: #f2f2f2;
+  }
+ 
+  
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
+  .line {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 4px;
+  }
+
+
+/* For the beginning of the body inside the h1 tag and p tag */
+  .Intro-1, .Intro-2, .intro-3, .intro-4 {
+    margin-top: 60px;
+    
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+   
+  }
+  .Intro-1 .tag, .Intro-2 .tag, .intro-3 .tag-2, .intro-4 .tag-3{
+    color: red;
+  }
+  .Intro-1 p, .intro-3 p{
+    font-weight: 700;
+    font-size: 50px; 
+  }
+
+  .Intro-2 p{
+    font-weight: 350;
+    font-size: 20px;
+  } 
+  
+  .intro-4 .head{
+font-size: 20px;
+padding-top: 5px;
+font-weight: bold;
+padding-bottom: 15px;
+  }
+
+  .intro-4 .paragraph{
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+
+
+  /* styling for skills */
+  .skill{
+    font-size: 30px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+
+  .container{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.box{
+    margin-bottom: 50px;
+    border: 1px solid rgb(246, 150, 150);
+    height: 200px;
+   width:250px;
+    border-radius: 20px;
+}
+.box:hover{
+    border: 1px solid red;
+}
+.icons{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.web{
+    font-size: 20px;
+    padding-left: 20px ;
+   
+}
+
+/* styling for the the contents under the Technologies */
+.tech{
+    font-size: 30px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.tech-2{
+    font-size: 20px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+
+  .box-2 {
+    display: inline-block; 
+    
+   
+    border: 1px solid rgb(246, 150, 150);
+    margin-bottom: 50px;
+    margin-left: 70px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    
+    
+  }
+  .box-2:hover{
+    border: 1px solid red;
+  }
+
+  
+  .box-2:last-child {
+    margin-right: 0;
+  }
+
+  .box-3 {
+    display: inline-block; 
+    
+   
+    border: 1px solid rgb(246, 150, 150);
+    margin-bottom: 50px;
+    margin-left: 70px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    
+    
+  }
+  .box-3:hover{
+    border: 1px solid red;
+  }
+
+  
+  .box-3:last-child {
+    margin-right: 0;
+  }
+
+  .box-4 {
+    display: inline-block;
+    
+   
+    border: 1px solid rgb(246, 150, 150);
+    margin-bottom: 50px;
+    margin-left: 70px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    
+    
+  }
+  .box-4:hover{
+    border: 1px solid red;
+  }
+
+  
+  .box-4:last-child {
+    margin-right: 0;
+  }
+
+  /* Contents for things projects */
+.project{
+    margin-left: 70px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.project-2{
+margin-left: 70px;
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+.images {
+  display: flex;
+  gap: 100px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 200px;
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+
+.head-2{
+    font-size: 30px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.edu{
+    margin-left: 70px;
+    border: 1px solid rgb(246, 150, 150);
+    height: 120px;
+    width: 1100px;
+    margin-bottom:50px;
+    
+}
+   
+.edu:hover{
+    border: 1px solid red;
+
+}
+.edu span{
+    font-size: 20px;
+   padding-left: 800px;
+}
+.edu .sp{
+padding-left: 900px ;
+padding-top: 10px;
+}
+.edu .p-3 {
+    padding-left: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+    color: red;
+}
+.edu .p-4{
+    padding-left: 20px;
+    font-size:20px ;
+    color: red;
+}
+.edu .p-1 {
+font-size: 30px;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.awards{
+    margin-left: 70px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.Award{
+    margin-left: 70px;
+    border: 1px solid rgb(246, 150, 150);
+    height: 120px;
+    width: 1100px;
+    margin-bottom: 20px;
+}
+.Award:hover{
+    border:1px solid red ;
+}
+.Award .p-5{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.Award .p-6{
+    padding-left: 20px;
+    color: red;
+    font-size: 20px;
+}
+
+.language{
+    margin-left: 70px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+ .container-5{
+    margin-bottom: 20px;
+   
+   
+} 
+.box-5{
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid rgb(246, 150, 150);
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+.box-5:hover{
+    border: 1px solid red;
+}
+
+ .p7{
+    padding-left:20px ;
+padding-top: 20px;
+font-size: 25px;
+padding-bottom: 10px;
+}
+ .p-7{
+color: red;
+font-size: 18px;
+padding-left: 20px;
+}
+
+.recruits{
+    font-size: 60px;
+    margin-left: 250px;
+}
+.recruits-2{
+    font-size: 23px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+
+.link{
+    margin-left: 250px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.link i {
+    margin-right: 10px; 
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  hr{
+    border: 1px solid red;
+    width: 185px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    
+  }
+
+  .follow{
+    color: #323131;
+    margin-left: 250px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+#links{
+    margin-left: 250px;
+    margin-bottom: 80px;
+}
+
+.link-2 i{
+    color: black;
+    margin-right: 15px;
+}
+.copyright{
+    margin-left: 230px;
+    margin-bottom: 30px;
+}
+
+
+ /* CSS for larger screens */
+@media screen and (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+    }
+
+}
+
+/* CSS for smaller screens */
+@media screen and (max-width: 767px) {
+    .logo {
+        flex: 1;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: flex-end;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .nav-links.show {
+        display: block;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      
+      .nav-links.show li {
+        margin-left: 0;
+        margin-bottom: 10px;
+      }
+      
+      .icon-container.show {
+        display: block;
+        margin-top: 10px;
+      }
+
+      .Intro-1,
+      .Intro-2 {
+          margin: 20px;
+      }
+  
+      .Intro-1 p {
+          font-size: 25px;
+      }
+  
+      .Intro-2 p {
+          font-size: 15px;
+      } 
+
+     .container{
+        display: block;
+        
+     }
+     .box{
+        width: 200px;
+     }
+    .skill{
+        margin-left: 20px;
+    }
+
+/* Responsiveness for skills */
+    .container {
+      flex-direction: column; 
+      align-items: center; 
+  }
+
+  .box {
+      width: 90%; 
+  }
+
+  .box-2,
+  .box-3,
+  .box-4 {
+      display: block; 
+      width: 90%; 
+      margin: 0 auto 20px; 
+  }
+
+  .box-2:last-child,
+  .box-3:last-child,
+  .box-4:last-child {
+      margin-bottom: 0; 
+  }
+}
